@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <header>
-          <h2>Examen Parcial PNT2 - 30 OCT 2025 - Gino Tubaro</h2>
+          <h2>TP3 - Vue CLI - Router / Formularios - Gino Tubaro</h2>
         </header>
       </div>
 

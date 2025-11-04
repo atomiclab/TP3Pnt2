@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Formulario from './components/Formulario/index.vue'
 import Inicio from './components/Inicio.vue'
-import ConversorDeUnidades from './components/ConversorDeUnidades/index.vue'
-import RespuestaAPreguntas from './components/RespuestaAPreguntas.vue'
 
 const routes = [
   /* ---- definición de la ruta raíz ---- */
-  { path: '/', component: Inicio },
-  { path: '/conversor-de-unidades', component: ConversorDeUnidades },
-  { path: '/respuesta-a-preguntas', component: RespuestaAPreguntas },
+  { path: '/formulario', component: Formulario },
+  { path: '/inicio', component: Inicio },
+  { path: '/', redirect: '/inicio' },
 
   /* ---- definición de las rutas no existentes ---- */
   { path: '/:pathmatch(.*)*', redirect: '/' },

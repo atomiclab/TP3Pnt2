@@ -19,13 +19,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/conversor-de-unidades" active-class="active"
-              >Conversor de Unidades</RouterLink
+            <RouterLink class="nav-link" to="/formulario" active-class="active"
+              >Formulario con Validaciones</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/respuesta-a-preguntas" active-class="active"
-              >Respuesta a preguntas</RouterLink
+            <RouterLink class="nav-link" to="/inicio" active-class="active"
+              >Consigna</RouterLink
             >
           </li>
         </ul>
