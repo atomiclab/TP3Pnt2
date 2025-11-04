@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Formulario from './components/Formulario/index.vue'
 import Inicio from './components/Inicio.vue'
+import PequenoComercio from './components/PequenoComercio/index.vue'
 
 const routes = [
   /* ---- definición de la ruta raíz ---- */
   { path: '/formulario', component: Formulario },
+  { path: '/pequeno-comercio', component: PequenoComercio },
   { path: '/inicio', component: Inicio },
   { path: '/', redirect: '/inicio' },
 

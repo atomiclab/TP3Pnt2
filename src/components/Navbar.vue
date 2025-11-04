@@ -24,6 +24,11 @@
             >
           </li>
           <li class="nav-item">
+            <RouterLink class="nav-link" to="/pequeno-comercio" active-class="active"
+              >Pequeño Comercio</RouterLink
+            >
+          </li>
+          <li class="nav-item">
             <RouterLink class="nav-link" to="/inicio" active-class="active"
               >Consigna</RouterLink
             >
